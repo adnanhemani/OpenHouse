@@ -14,6 +14,9 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'simplecov'
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
+
 #SimpleCov.start # this line has been moved to .simplecov
 require 'factory_girl_rails'
 require 'spec_test_helper'

@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
 #Lock ruby and rails version
-ruby '2.3.5'
+ruby '2.4.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'
+gem 'simplecov-cobertura'
 # Use sqlite3 as the database for Active Record (does not work with heroku, switch to pg)
 gem 'pg'
 # Use SCSS for stylesheets

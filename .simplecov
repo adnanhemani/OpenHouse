@@ -1,2 +1,3 @@
-SimpleCov.formatter = SimpleCov::Formatter::SimpleFormatter
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 SimpleCov.start

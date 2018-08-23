@@ -5,6 +5,8 @@
 # files.
 
 require 'simplecov'
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 SimpleCov.start 'rails'
 #SimpleCov.start #this line has been moved to .simplecov
 require 'cucumber/rails'
